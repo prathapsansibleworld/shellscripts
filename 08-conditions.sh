@@ -1,8 +1,9 @@
 #!/bin/bash
-int a=10
-int b=8
-if[ a -gt b ] then
-echo "a is greater"
+NUMBER=$1
+
+if[ $NUMBER -gt 10 ]; then
+echo "Given $NUMBER is greater than 10"
 else 
-echo "b is greater"
+echo "Given $NUMBER is lesser than 10"
+fi
 
